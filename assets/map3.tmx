@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="100" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="6">
+ <tileset firstgid="1" source="platformer.tsx"/>
+ <tileset firstgid="78" source="platformer2.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="100" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt0zEOQEAQQNFBg6O4mYpGXN8kVqNQSFYU7yU/U+x2k4kAAAAA4I0928qkniZrS122ZOutOc5dXG/U02dDNmbTwz938Q37+JcD2AsG0A==
+  </data>
+ </layer>
+ <objectgroup id="2" name="objects">
+  <object id="2" name="1" x="64" y="192">
+   <polygon points="0,0 -16,0 -48,0 -64,0 -64,16 -64,32 -64,48 -48,48 -32,48 -16,48 0,48 0,32 0,16"/>
+  </object>
+  <object id="3" name="2" x="64" y="192">
+   <polygon points="0,0 0,16 16,16 32,16 48,16 64,16 80,16 96,16 96,0 80,0 64,0 48,0 32,0 16,0"/>
+  </object>
+  <object id="4" name="3" x="128" y="128">
+   <polygon points="0,0 32,0 32,16 0,16 -16,16 -16,0"/>
+  </object>
+  <object id="5" name="4" x="112" y="80">
+   <polygon points="0,0 0,32 32,32 32,16 32,0 32,-16 16,-16 0,-16"/>
+  </object>
+ </objectgroup>
+</map>
